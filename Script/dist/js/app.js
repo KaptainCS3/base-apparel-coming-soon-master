@@ -16,9 +16,8 @@ btn.addEventListener("click", () => {
   } else {
     email.style.borderColor = "#0f0";
     error.style.display = "none";
-
     errorMessage.innerHTML = "";
-    // handleSubmit()
+    handleSubmit()
 
    return true;
   }

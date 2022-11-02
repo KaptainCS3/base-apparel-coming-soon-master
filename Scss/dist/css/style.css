@@ -124,7 +124,7 @@ body {
     display: none;
   }
 }
-@media and (max-width: 48rem) {
+@media (max-width: 48rem) {
   main {
     width: 100%;
     display: flex;
