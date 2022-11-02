@@ -14,7 +14,7 @@ btn.addEventListener("click", () => {
     errorMessage.innerHTML = "Please enter a valide email";
     return false;
   } else {
-    email.style.borferColor = "#0f0";
+    email.style.borderColor = "#0f0";
     error.style.display = "none";
 
     errorMessage.innerHTML = "";
