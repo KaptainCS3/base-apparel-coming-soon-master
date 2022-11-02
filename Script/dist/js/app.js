@@ -18,7 +18,7 @@ btn.addEventListener("click", () => {
     error.style.display = "none";
 
     errorMessage.innerHTML = "";
-    handleSubmit()
+    // handleSubmit()
 
    return true;
   }
